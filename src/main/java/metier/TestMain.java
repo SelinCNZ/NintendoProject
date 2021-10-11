@@ -1,5 +1,7 @@
 package metier;
 
+import java.util.List;
+
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -14,6 +16,14 @@ public class TestMain {
 		Jeu j3 = new Jeu ("Pokemon",c3);
 		Jeu j4 = new Jeu ("Naruto",c2);
 		Jeu j5 = new Jeu ("Bataille Navale",c2);
+		
+		List <Jeu> listeJeuxToto;
+		listeJeuxToto.add(j5);
+		listeJeuxToto.add(j2);
+		listeJeuxToto.add(j3);
+		
+		
+		Client clientToto = new Client ("TUTU", "toto", listeJeuxToto);
 		
 
 	}

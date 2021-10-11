@@ -25,9 +25,14 @@ public class TestMain {
 		
 		
 		List<Jeu> jeux= new ArrayList<Jeu>();
+		jeux.add(j5);
+		jeux.add(j4);
+		jeux.add(j3);
+		jeux.add(j2);
+		jeux.add(j1);
 		
+		Boutique b= new Boutique ("Micromania","42 passage John Doe",jeux);
 		
-		//Boutique b= new Boutique ()
 		List <Jeu> listeJeuxToto;
 		listeJeuxToto.add(j5);
 		listeJeuxToto.add(j2);

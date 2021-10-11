@@ -11,30 +11,28 @@ public class TestMain {
 		Console c2 = new Console ("Playstation");
 		Console c3 = new Console ("XBox");
 		
-		
-		
 		List <Console> consoles = new ArrayList();
-		consoles.add(c1);
-		consoles.add(c2);
+		
 		consoles.add(c3);
+		consoles.add(c2);
+		consoles.add(c1);
+		
+		Jeu j1 = new Jeu ("Call Of Duty",consoles);
+		Jeu j2 = new Jeu ("Mario Kart",consoles);
+		Jeu j3 = new Jeu ("Pokemon",consoles);
+		Jeu j4 = new Jeu ("Naruto",consoles);
+		Jeu j5 = new Jeu ("Bataille Navale",consoles);
 		
 		
+		List<Jeu> jeux= new ArrayList<Jeu>();
 		
-		//Jeu j1 = new Jeu ("Call Of Duty",c1);
-		//Jeu j2 = new Jeu ("Mario Kart",c1);
-		//Jeu j3 = new Jeu ("Pokemon",c3);
-		//Jeu j4 = new Jeu ("Naruto",c2);
-		//Jeu j5 = new Jeu ("Bataille Navale",c2);
 		
+		//Boutique b= new Boutique ()
 		List <Jeu> listeJeuxToto;
 		listeJeuxToto.add(j5);
 		listeJeuxToto.add(j2);
 		listeJeuxToto.add(j3);
-		
-		
 		Client clientToto = new Client ("TUTU", "toto", listeJeuxToto);
-		
-
 	}
 
 }

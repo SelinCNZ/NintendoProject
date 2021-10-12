@@ -24,6 +24,8 @@ public class TestMain {
 		Jeu j5 = new Jeu ("Bataille Navale",consoles);
 		
 		
+		
+		
 		List<Jeu> jeux= new ArrayList<Jeu>();
 		jeux.add(j5);
 		jeux.add(j4);
@@ -32,12 +34,16 @@ public class TestMain {
 		jeux.add(j1);
 		
 		Boutique b= new Boutique ("Micromania","42 passage John Doe",jeux);
+		Achat a1 = new Achat(j1,"2021-09-27",13,b);
+		Achat a2 = new Achat(j2,"2021-09-27",13,b);
+		Achat a3 = new Achat(j3,"2021-09-27",13,b);
 		
-		List <Jeu> listeJeuxToto = new ArrayList<Jeu>();
-		listeJeuxToto.add(j5);
-		listeJeuxToto.add(j2);
-		listeJeuxToto.add(j3);
-		Client clientToto = new Client ("TUTU", "toto", listeJeuxToto);
+		
+		List <Achat> AchatJeuxToto = new ArrayList<Achat>();
+		AchatJeuxToto.add(a1);
+		AchatJeuxToto.add(a2);
+		AchatJeuxToto.add(a3);
+		Client clientToto = new Client ("TUTU", "toto", AchatJeuxToto);
 	}
 
 }

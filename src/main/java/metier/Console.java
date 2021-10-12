@@ -2,9 +2,9 @@ package metier;
 
 public abstract class Console {
 
-	private String nom;
-	private int prix;
-	private String date;
+	protected String nom;
+	protected int prix;
+	protected String date;
 	
 	public Console(String nom,int prix,String date) {
 		this.nom = nom;

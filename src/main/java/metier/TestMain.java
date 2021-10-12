@@ -7,9 +7,9 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Portable ("Nintendo");
-		Console c2 = new Salon ("Playstation");
-		Console c3 = new Salon ("XBox");
+		Console c1 = new Portable ("Nintendo",14,"2021-09-15");
+		Console c2 = new Salon ("Playstation",67,"2021-08-15");
+		Console c3 = new Salon ("XBox",45,"2021-09-27");
 		
 		List <Console> consoles = new ArrayList();
 		

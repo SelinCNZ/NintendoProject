@@ -7,9 +7,9 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Console ("Nintendo");
-		Console c2 = new Console ("Playstation");
-		Console c3 = new Console ("XBox");
+		Console c1 = new Portable ("Nintendo");
+		Console c2 = new Salon ("Playstation");
+		Console c3 = new Salon ("XBox");
 		
 		List <Console> consoles = new ArrayList();
 		

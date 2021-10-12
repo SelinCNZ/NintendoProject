@@ -33,7 +33,7 @@ public class TestMain {
 		
 		Boutique b= new Boutique ("Micromania","42 passage John Doe",jeux);
 		
-		List <Jeu> listeJeuxToto;
+		List <Jeu> listeJeuxToto = new ArrayList<Jeu>();
 		listeJeuxToto.add(j5);
 		listeJeuxToto.add(j2);
 		listeJeuxToto.add(j3);
